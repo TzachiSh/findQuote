@@ -212,7 +212,7 @@ const wikiQuoteApi = {
 
 const quoteController = function(title, success, error) {
   let line;
-  API_URL = `http://${language}.wikiquote.org/w/api.php`;
+  API_URL = `https://${language}.wikiquote.org/w/api.php`;
 
   const errorFunction = msg => {
     error(msg);
